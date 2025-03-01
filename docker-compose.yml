@@ -1,0 +1,9 @@
+version: '2'
+services:
+
+  # Laravel Seeder
+  laravel-seeder:
+    build: .
+    command: tail -f /dev/null
+    volumes:
+      - .:/usr/local/src

@@ -1,0 +1,4 @@
+coverage/ export-ignore
+scripts/ export-ignore
+tests/ export-ignore
+vendor/ export-ignore

@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# IDE
+.idea
+*.sublime-*
+.vscode
+
+# Composer
+composer.phar
+composer.lock
+vendor/
+
+# Debug
+coverage/
+.DS_Store

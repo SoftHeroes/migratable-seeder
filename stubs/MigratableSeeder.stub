@@ -1,0 +1,25 @@
+<?php
+
+use SoftHeroes\MigratableSeeder\Migration\MigratableSeeder;
+use SoftHeroes\MigratableSeeder\Repository\DisableForeignKeysTrait;
+
+class {{class}} extends MigratableSeeder
+{
+    use DisableForeignKeysTrait;
+
+    /**
+     * Run the database seeder.
+     */
+    public function run(): void
+    {
+        // Seed your data
+    }
+
+    /**
+     * Reverts the database seeder.
+     */
+    public function down(): void
+    {
+        // Remove your data
+    }
+}
