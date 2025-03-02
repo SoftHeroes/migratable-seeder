@@ -53,7 +53,7 @@ class SeederRepository implements SeederRepositoryInterface
      * @param ConnectionResolverInterface $resolver
      * @param string                      $table
      */
-    public function __construct(ConnectionResolverInterface $resolver, string $table, string $database_name = null)
+    public function __construct(ConnectionResolverInterface $resolver, string $table, ?string $database_name = null)
     {
         $this->connectionResolver = $resolver;
         $this->database_name = $database_name;
